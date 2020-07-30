@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vu035/AirspaceTechnologiesInterview.git"
+    "url": "git+https://github.com/vu035/Interview.git"
   },
   "author": "Andrew",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vu035/AirspaceTechnologiesInterview/issues"
+    "url": "https://github.com/vu035/Interview/issues"
   },
   "homepage": "https://github.com/vu035/AirspaceTechnologiesInterview#readme"
 }

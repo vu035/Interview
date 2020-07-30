@@ -7,7 +7,7 @@ class SecureAreaPageCommonSteps
         this.secureAreaPage = new SecureAreaPage()
     }
 
-    Logout()
+    LogOut()
     {
         this.secureAreaPage.GetLogoutButton().click()
     }

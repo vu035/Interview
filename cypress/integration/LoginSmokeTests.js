@@ -42,7 +42,16 @@ describe('Heroku App Login Smoke Tests', function()
 
         this.herokuLoginPageCommonSteps.LoginToHeroku(validUsername, validPassword)
         this.secureAreaPageCommonSteps.VerifyIsOnSecureAreaPage()
-        this.secureAreaPageCommonSteps.Logout()
+    })
+
+    it('User with valid username and password can log in and then log out of heroku', function()
+    {
+        var validUsername = this.data.username
+        var validPassword = this.data.password
+
+        this.herokuLoginPageCommonSteps.LoginToHeroku(validUsername, validPassword)
+        this.secureAreaPageCommonSteps.VerifyIsOnSecureAreaPage()
+        this.secureAreaPageCommonSteps.LogOut()
         this.herokuLoginPageCommonSteps.VerifyIsOnLoginPage()
     })
 })
